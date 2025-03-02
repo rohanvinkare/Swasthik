@@ -1,0 +1,141 @@
+{
+    "success": true,
+    "msg": "Case details retrieved successfully",
+    "caseDetails": {
+        "_id": "67c1bcd85b4592a792e5997d",
+        "first_name": "John",
+        "last_name": "Doe",
+        "date_of_birth": "1985-07-15T00:00:00.000Z",
+        "gender": "male",
+        "contact_number": "9876743210",
+        "emergency_contact": {
+            "name": "Jane Doe",
+            "relationship": "spouse",
+            "contact_number": "8765432109"
+        },
+        "address": {
+            "street": "123 Elm Street",
+            "city": "New York",
+            "state": "NY",
+            "postal_code": "10001",
+            "country": "USA"
+        },
+        "blood_type": "O+",
+        "patient_type": "adult",
+        "lifestyle": {
+            "diet": "omnivore",
+            "physical_activity": "moderately active",
+            "smoking_status": "non-smoker",
+            "alcohol_consumption": "light drinker",
+            "stress_level": "moderate",
+            "sleep_quality": "good"
+        },
+        "height": 175,
+        "weight": 72,
+        "allergies": [
+            "pollen",
+            "penicillin"
+        ],
+        "medical_history": [
+            "hypertension",
+            "asthma"
+        ],
+        "current_medications": [
+            {
+                "name": "Metformin",
+                "dosage": "500mg",
+                "frequency": "twice daily",
+                "start_date": "2024-01-10T00:00:00.000Z",
+                "_id": "67c1bcd85b4592a792e5997e"
+            }
+        ],
+        "insurance_information": {
+            "provider": "HealthCare Inc.",
+            "policy_number": "HC123456789",
+            "expiration_date": "2026-12-31T00:00:00.000Z"
+        },
+        "assigned_doctor_id": [
+            "fd25f7c8-f979-4e44-bd0b-336eacb8c41b"
+        ],
+        "assigned_nurse_id": [
+            "b638501f-c9ad-4375-82a5-bb0a345de0a1",
+            "4ac060a6-6407-49ab-bb4f-9581627dd0a6"
+        ],
+        "patient_id": "fdc52cce-a70c-49ce-b4f4-f3fd7eb3cbcb",
+        "admission_date": "2025-02-28T13:40:40.428Z",
+        "__v": 0,
+        "doctor_info": [
+            {
+                "_id": "67c186d344cdd3e1a28d0b34",
+                "first_name": "rohan",
+                "last_name": "Sharma",
+                "license_number": "LIC123456",
+                "specialization": "Cardiology",
+                "contact_number": "9876543210",
+                "email": "johndoe@example.com",
+                "department": "Heart Care",
+                "schedule": [
+                    {
+                        "day": "Monday",
+                        "start_time": "09:00 AM",
+                        "end_time": "05:00 PM",
+                        "_id": "67c186d344cdd3e1a28d0b35"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "start_time": "10:00 AM",
+                        "end_time": "04:00 PM",
+                        "_id": "67c186d344cdd3e1a28d0b36"
+                    }
+                ],
+                "case_ids": [
+                    "1dabaa3f-474d-4866-9fd4-72382c0e7839",
+                    "fdc52cce-a70c-49ce-b4f4-f3fd7eb3cbcb"
+                ],
+                "doctor_id": "fd25f7c8-f979-4e44-bd0b-336eacb8c41b",
+                "__v": 2
+            }
+        ],
+        "nurse_info": [
+            {
+                "_id": "67c196202948c4f0708424cd",
+                "first_name": "Meera",
+                "last_name": "Iyer",
+                "license_number": "N12347",
+                "contact_number": "9867543210",
+                "email": "meera.iyer@example.com",
+                "department": "Pediatrics",
+                "shift_information": {
+                    "shift_type": "evening",
+                    "start_time": "14:00",
+                    "end_time": "22:00"
+                },
+                "case_ids": [
+                    "fdc52cce-a70c-49ce-b4f4-f3fd7eb3cbcb"
+                ],
+                "nurse_id": "4ac060a6-6407-49ab-bb4f-9581627dd0a6",
+                "__v": 0
+            },
+            {
+                "_id": "67c1960c2948c4f0708424ca",
+                "first_name": "Rahul",
+                "last_name": "Sharma",
+                "license_number": "N12346",
+                "contact_number": "9123456789",
+                "email": "rahul.sharma@example.com",
+                "department": "Emergency",
+                "shift_information": {
+                    "shift_type": "night",
+                    "start_time": "22:00",
+                    "end_time": "06:00"
+                },
+                "case_ids": [
+                    "1dabaa3f-474d-4866-9fd4-72382c0e7839",
+                    "fdc52cce-a70c-49ce-b4f4-f3fd7eb3cbcb"
+                ],
+                "nurse_id": "b638501f-c9ad-4375-82a5-bb0a345de0a1",
+                "__v": 0
+            }
+        ]
+    }
+}
